@@ -67,8 +67,6 @@ const SpecificationBuilder: React.FC = () => {
   const filteredSpecs = specifications.filter(spec => spec.criteria === selectedCriteria);
 
   return (
-    <>
-      <Navigation />
       <div className="container mx-auto px-6 py-8">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Specification Builder</h1>
@@ -223,7 +221,6 @@ const SpecificationBuilder: React.FC = () => {
           </Card>
         </div>
       </div>
-    </>
   );
 };
 
